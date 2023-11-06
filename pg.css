@@ -9,7 +9,10 @@ header{
     top: 0;
 }
 .fnt{
-    color: #fff;
+   color: #fff;
+}
+.fnt:hover{
+
 }
 .mh
 {
@@ -26,7 +29,7 @@ header{
 .navbar
 {
     height: 96px;
-    background-color:black;
+    background-color: rgb(18, 18, 18);
     position: sticky !important;
     top: 0px;
     justify-content: space-around !important;
@@ -35,6 +38,7 @@ header{
 
 .mht
 {
+    display: inline;
     letter-spacing: 1px;
     margin-top: 12px;
    font-size: 13px;
@@ -189,8 +193,13 @@ header{
     .menu1{
         display: block;
     }
-
-       
+    .fri
+    {
+        width: 40vw !important;
+        height: 40vw;
+        margin-left:0rem !important;
+    }
+    
 }
 @media (max-width:600px) 
 {   .row{
@@ -214,7 +223,7 @@ header{
 
     
 }
-@media (min-width:600px) {
+@media (min-width:990px) {
 .menu2
     {
         opacity: 0;
